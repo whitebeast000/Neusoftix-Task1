@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Registration.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body id="registration">
+  <body id="login_page">
     <main id="main">
       <section id="left">
         <img src="login_img.jpg" alt="" class="image" width="600px" height="1200px"/>
@@ -30,15 +30,12 @@
         <p id="line_one">Welcome to the ParentGenius</p>
         
         <div class="option">
-            <a href="index.html" id="#log">login</a>
-            <a href="Registration.html" id="#reg">Register</a>
+            <a href="index.html" id="log">login</a>
+            <a href="Registration.html" id="reg">Register</a>
         </div>
         <p id="line_two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cumque eius eos?</p>
         
         <form action="submit" id="login_form">
-            <label for="username">Email Address</label>
-            <input type="email" id="username" class="inputs"  placeholder="Enter Your Email Address">
-        
             <label for="username">Username</label>
             <input type="text" id="username" class="inputs"  placeholder="Enter Your Username">
         
@@ -50,10 +47,10 @@
                    <input type="checkbox" name="remember_me" id="chck_box"><label for="chck_box">Remember me</label>
                 </div>
 
-                <a href="">Forgot Password</a>
+                <a href="">Forgot Password ?</a>
             </div>
 
-            <button type="button" class="btn-login"  onclick="window.location.href='../Goal_and_Priorities/page1.html'">Register</button>
+            <button type="button" class="btn-login"  onclick="window.location.href='../Goal_and_Priorities/page1.html'">Login</button>
         </form>
 
     </section>
@@ -88,10 +85,6 @@
         <p id="line_four"> &copy 2025 ParentGenius</p>
 
     </div>
-
-
-    
-
 </footer>
 
   </body>

@@ -155,7 +155,7 @@ body
 }
 
 
-.btn-login
+.btn-login 
 {
 
     margin: 85px;
@@ -170,6 +170,11 @@ body
     color: white;
 }
 
+.btn-login a
+{
+    text-decoration: none;
+    color: white;
+}
 
 footer
 {
